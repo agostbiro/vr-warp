@@ -1,0 +1,3 @@
+# Speeding up VR rendering with 3D warping
+
+This is an ongoing project with the goal of speeding up VR rendering up to 50% by rendering images for one eye with 3D warping. Read the [introduction]() or the [road map]() for more, or try the first demo [here.](http://abiro.github.io/vr-warp-demo-0/) This code is heavily under development with a number of [issues]() and as such should not be used in production yet.

@@ -1,0 +1,35 @@
+{
+  "name": "vr-warp",
+  "version": "0.0.1",
+  "private": true,
+  "browserify": {
+    "transform": [
+      "glslify"
+    ]
+  },
+  "scripts": {
+    "start": "watchify test/test.js -o bundle.js --delay 400 -v -d & http-server -p 8001 -s -o"
+  },
+  "dependencies": {
+    "gl-buffer": "",
+    "gl-context": "",
+    "gl-fbo": "",
+    "gl-geometry": "",
+    "gl-mat4": "",
+    "gl-vec3": "",
+    "gl-shader": "",
+    "glslify": "",
+    "raf-loop": "",
+    "underscore": "",
+    "webgl-context": ""
+  },
+  "devDependencies": {
+    "browserify": "",
+    "http-server": "",
+    "grunt": "",
+    "grunt-browserify": "",
+    "grunt-contrib-jshint": "",
+    "grunt-contrib-uglify": "",
+    "watchify": ""
+  }
+}
