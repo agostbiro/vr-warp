@@ -1,6 +1,6 @@
 // Given a frame rendered to a framebuffer created with 'gl-fbo', renders a 
-// frame to the default framebuffer from a viewpoint at a horizontal offset and 
-// a parallel viewing direction.
+// frame from a viewpoint at a horizontal offset and a parallel viewing 
+// direction.
 
 
 'use strict';
